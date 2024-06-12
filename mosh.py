@@ -14,5 +14,16 @@
 # weight_kg = int(weight_lbs) * 0.45
 # print(weight_kg)
 # strings
-course="python for beginners"
+# course='python for "beginners"'
+# print(course)
+# strings_1
+course='''
+Hi john,
+
+Here is you first email.
+
+Thank you,
+The support team
+
+'''
 print(course)
