@@ -10,6 +10,9 @@
 # print(type(age))
 # print(age)
 # ask a user for weight in pounds and convert weight to kg
-weight_lbs = input('Weight (lbs): ')
-weight_kg = int(weight_lbs) * 0.45
-print(weight_kg)
+# weight_lbs = input('Weight (lbs): ')
+# weight_kg = int(weight_lbs) * 0.45
+# print(weight_kg)
+# strings
+course="python for beginners"
+print(course)
