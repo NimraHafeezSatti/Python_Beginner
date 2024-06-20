@@ -28,5 +28,9 @@
 # '''
 # print(course)
 #we use square brackets to get a character and a given index in this string
+
+#course='python for bignners'
+#print(course[-3])
+#we use square brackets to get a character and a given index in this string(2)
 course='python for bignners'
-print(course[-3])
+print(course[0:3])
