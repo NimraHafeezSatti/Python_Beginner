@@ -44,9 +44,15 @@
 # if has_high_income or has_good_credits:
 #         print("eligible for loan")
 #for not operator
-has_good_credits=True
-has_criminal_records=False
+# has_good_credits=true
+# has_criminal_records=True
 
-if  has_good_credits and not has_criminal_records:
-    print("eligible for loan")
+# if  has_good_credits and not has_criminal_records:
+#     print("eligible for loan")
+#comparison opeartions
+temperature=40
+if  temperature > 40:
+        print("it is hot")
+else: 
+        print("it is not hot")
 
