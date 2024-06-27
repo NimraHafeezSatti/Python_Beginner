@@ -39,7 +39,14 @@
 #print(course[0:])
 #formatted string
 #logical opearator2
-has_high_income=False
+# has_high_income=False
+# has_good_credits=True
+# if has_high_income or has_good_credits:
+#         print("eligible for loan")
+#for not operator
 has_good_credits=True
-if has_high_income or has_good_credits:
-        print("eligible for loan")
+has_criminal_records=False
+
+if  has_good_credits and not has_criminal_records:
+    print("eligible for loan")
+
