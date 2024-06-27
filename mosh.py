@@ -64,6 +64,8 @@ is_hot=True
 if is_hot:
     print ('it is hot')
     print('drink some water')
+else:
+    print('it is not hot')
 print('it is a lovely day')
 
 
