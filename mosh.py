@@ -59,9 +59,11 @@
 #strings methode
 # course='python for beginners'
 # print(len(course))
-#strins methode2
-course='python for beginners'
-print(course.lower())
-print(course.upper())
+#if statement
+is_hot=True
+if is_hot:
+    print ('it is hot')
+    print('drink some water')
+print('it is a lovely day')
 
 
