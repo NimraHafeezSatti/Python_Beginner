@@ -57,5 +57,11 @@
 #         print("it is not hot")
 
 #strings methode
+# course='python for beginners'
+# print(len(course))
+#strins methode2
 course='python for beginners'
-print(len(course))
+print(course.lower())
+print(course.upper())
+
+
