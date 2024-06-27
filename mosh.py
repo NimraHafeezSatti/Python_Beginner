@@ -38,8 +38,8 @@
 #course='python for beginners'
 #print(course[0:])
 #formatted string
-#logical opearator
-has_high_income=True
+#logical opearator2
+has_high_income=False
 has_good_credits=True
-if has_high_income and has_good_credits:
+if has_high_income or has_good_credits:
         print("eligible for loan")
