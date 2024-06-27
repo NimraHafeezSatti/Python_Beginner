@@ -50,9 +50,12 @@
 # if  has_good_credits and not has_criminal_records:
 #     print("eligible for loan")
 #comparison opeartions
-temperature=40
-if  temperature > 40:
-        print("it is hot")
-else: 
-        print("it is not hot")
+# temperature=40
+# if  temperature > 40:
+#         print("it is hot")
+# else: 
+#         print("it is not hot")
 
+#strings methode
+course='python for beginners'
+print(len(course))
