@@ -59,13 +59,15 @@
 #strings methode
 # course='python for beginners'
 # print(len(course))
-#if statement
-is_hot=True
-if is_hot:
-    print ('it is hot')
-    print('drink some water')
-else:
-    print('it is not hot')
-print('it is a lovely day')
+#if statement2
+# weight converter program
+weight=int(input('weight:'))
+unit=input('(l)bs or (k)g:')
+if unit.upper() == "l":
+     converted=weight*0.45
+     print(f'if you are{converted}kilos')
+else:  
+   converted=weight/0.45
+   print(f'if you are {converted}pounds')
 
 
