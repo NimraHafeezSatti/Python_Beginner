@@ -60,14 +60,20 @@
 # course='python for beginners'
 # print(len(course))
 #if statement2
-# weight converter program
-weight=int(input('weight:'))
-unit=input('(l)bs or (k)g:')
-if unit.upper() == "l":
-     converted=weight*0.45
-     print(f'if you are{converted}kilos')
-else:  
-   converted=weight/0.45
-   print(f'if you are {converted}pounds')
+# c
+# weight=int(input('weight:'))
+# unit=input('(l)bs or (k)g:')
+# if unit.upper() == "l":
+#      converted=weight*0.45
+#      print(f'if you are{converted}kilos')
+# else:  
+#    converted=weight/0.45
+#    print(f'if you are {converted}pounds')
+#while loop
+i=1
 
+while i <= 5:
+    print(i)
+    i+=1
+print('done')
 
