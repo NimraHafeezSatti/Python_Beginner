@@ -44,36 +44,15 @@
 # if has_high_income or has_good_credits:
 #         print("eligible for loan")
 #for not operator
-# has_good_credits=true
-# has_criminal_records=True
-
-# if  has_good_credits and not has_criminal_records:
+# has_good_credits=True
+# has_criminal_records=true
+# if not has_good_credits and not has_criminal_records:
 #     print("eligible for loan")
-#comparison opeartions
-# temperature=40
-# if  temperature > 40:
-#         print("it is hot")
-# else: 
-#         print("it is not hot")
-
-#strings methode
-# course='python for beginners'
-# print(len(course))
-#if statement2
-# c
-# weight=int(input('weight:'))
-# unit=input('(l)bs or (k)g:')
-# if unit.upper() == "l":
-#      converted=weight*0.45
-#      print(f'if you are{converted}kilos')
-# else:  
-#    converted=weight/0.45
-#    print(f'if you are {converted}pounds')
-#while loop
+#     #while loop2
 i=1
-
-while i <= 5:
-    print(i)
-    i+=1
+while i<5:
+        print('$'* i)
+        i=i+1
 print('done')
+    
 
